@@ -7,6 +7,9 @@ import Card from './useStateArrray/Card';
 import './App.css';
 import CardProps from './props/CardProps';
 import Parent from './useContext/Parent';
+import Index from './memo/Index';
+import IndexCall from './useCallback/IndexCall';
+import CustomHooks from './customHooks/CustomHooks';
 
 
 // Implementasi UseContext
@@ -41,12 +44,22 @@ function App() {
 
     
     // Implementasi UseContext
-    <namaContext.Provider 
-      value={{firstname: 'Cristiano', lastname: 'Ronaldo' }}
-    >
-    <Parent/>   
-    </namaContext.Provider>
+    // <namaContext.Provider 
+    //   value={{firstname: 'Cristiano', lastname: 'Ronaldo' }}
+    // >
+    // <Parent/>   
+    // </namaContext.Provider>
 
+
+    // Implementasi Memo
+    // <Index/>
+
+    // Implementasi UseCallback
+    // <IndexCall/>
+
+
+    // Implementasi CustomHooks
+    <CustomHooks/>
 
   );
 }
