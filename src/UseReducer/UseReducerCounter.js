@@ -2,6 +2,9 @@ import React, { useReducer } from 'react'
 
 const UseReducerCounter = () => {
   //  useReducer adalah sebuah funtion yang mengelola sebuah state, sama dengan useState, tetapi lebih complex
+
+
+  // Penggunaan UseReducer
   function reducer(state, action) {
     // ketika di INCREMENT
     // Jalankan action.type === INCREMENT

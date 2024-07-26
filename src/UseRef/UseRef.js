@@ -9,7 +9,9 @@ const UseRef = () => {
   function handlerState() {
     // setstate(state + 1);
     // btnRef.current += 1;
+
     console.log(btnRef.current);
+    btnRef.current.style.backgroundColor = 'red';
     
   }
 
@@ -17,7 +19,9 @@ const UseRef = () => {
   
   return (
     <div>
-        <button onClick={handlerState} ref={btnRef}>Button</button>
+        <button onClick={handlerState} ref={btnRef}>
+          Hello
+        </button>
     </div>
   )
 }
