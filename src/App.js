@@ -6,30 +6,48 @@ import UseStateObject from './UseStateObject/UseStateObject';
 import Card from './useStateArrray/Card';
 import './App.css';
 import CardProps from './props/CardProps';
+import Parent from './useContext/Parent';
+
+
+// Implementasi UseContext
+export const namaContext = React.createContext()
 
 function App() {
   return (
-    <div>
-      {/* Implementasi Props */}
-      {/* <CardProps/> */}
+    // <div>
+      
+      // {/* Implementasi Props */}
+      // {/* <CardProps/> */}
 
-      {/* Implementasi State */}
-      {/* <Counter/> */}
+      // {/* Implementasi State */}
+      // {/* <Counter/> */}
 
-      {/* Implementasi UseState dengan Object */}
-      {/* <UseStateObject/> */}
+      // {/* Implementasi UseState dengan Object */}
+      // {/* <UseStateObject/> */}
 
-      {/* Implementasi Usestate dengan Array */}
-      {/* <Card/> */}
+      // {/* Implementasi Usestate dengan Array */}
+      // {/* <Card/> */}
 
-      {/* Implementasi UseRef */}
-      {/* <UseRef/> */}
+      // {/* Implementasi UseRef */}
+      // {/* <UseRef/> */}
 
-      {/* Implementasi Use Reducer */}
-      <UseReducerCounter/>
+      // {/* Implementasi UseReducer */}
+      // {/* <UseReducerCounter/> */}
 
 
-    </div>
+    // </div>
+
+
+
+    
+    // Implementasi UseContext
+    <namaContext.Provider 
+      value={{firstname: 'Cristiano', lastname: 'Ronaldo' }}
+    >
+    <Parent/>   
+    </namaContext.Provider>
+
+
   );
 }
 
