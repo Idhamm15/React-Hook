@@ -32,7 +32,7 @@ function App() {
       // {/* <Card/> */}
 
       // {/* Implementasi UseRef */}
-      // {/* <UseRef/> */}
+      // <UseRef/>
 
       // {/* Implementasi UseReducer */}
       // {/* <UseReducerCounter/> */}
@@ -52,10 +52,10 @@ function App() {
 
 
     // Implementasi Memo
-    // <Index/>
+    <Index/>
 
     // Implementasi UseCallback
-    <IndexCall/>
+    // <IndexCall/>
 
 
     // Implementasi CustomHooks
