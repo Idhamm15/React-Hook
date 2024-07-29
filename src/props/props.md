@@ -1,0 +1,2 @@
+# Props
+- props (singkatan dari "properties") di React digunakan untuk mengirim data dari satu komponen ke komponen lainnya, terutama dari komponen induk ke komponen anak. Dengan menggunakan props, komponen dapat menjadi lebih dinamis dan dapat digunakan kembali karena mereka dapat menerima input berbeda untuk mengubah perilakunya atau tampilannya.

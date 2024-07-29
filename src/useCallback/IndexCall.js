@@ -9,6 +9,13 @@ const IndexCall = () => {
         setCounter(counter + 1);
     }
 
+
+    // No UseCallback
+    // const addCity = () => {
+    //     setCity((prev) =>  [...prev, "Kota Baru"]);
+    // };
+
+    // Implementasi UseCallback
     const addCity = useCallback(()=> {
         setCity((prev) => [...prev, "Kota Baru"])
     }, [city]);

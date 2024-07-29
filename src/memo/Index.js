@@ -2,6 +2,9 @@ import React, {useState} from 'react'
 import City from './City'
 
 const Index = () => {
+  // Memo di gunakan untuk memoize seluruh component
+  // UseMemo merupakan hook yang digunakan untuk memoize nilai yang dihitung. 
+  // useMemo memastikan bahwa nilai yang dihitung hanya akan dihitung ulang jika salah satu dependensi berubah.
     const [counter, setCounter] = useState(0);
     const [city, setCity] = useState(['Jakarta', 'Bandung', 'Surabaya']);
 

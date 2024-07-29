@@ -55,11 +55,11 @@ function App() {
     // <Index/>
 
     // Implementasi UseCallback
-    // <IndexCall/>
+    <IndexCall/>
 
 
     // Implementasi CustomHooks
-    <CustomHooks/>
+    // <CustomHooks/>
 
   );
 }
